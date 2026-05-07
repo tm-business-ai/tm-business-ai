@@ -1,16 +1,86 @@
-## Hi there 👋
+# 松元 貴光 / Takamitsu Matsumoto
 
-<!--
-**tm-business-ai/tm-business-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## プロフィール
 
-Here are some ideas to get you started:
+業務改善・社内SEの実務経験を活かし、Python / ExcelVBA / 生成AIを活用した業務効率化ツールを開発しています。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+これまでの現場経験をもとに、議事録作成、売上集計、Excel業務の自動化、OCR読取、社内ナレッジ検索など、実務で発生しやすい課題を技術で解決することを重視しています。
+
+---
+
+## 得意分野
+
+- ExcelVBAによる業務自動化
+- Pythonによる業務改善ツール開発
+- 生成AIを活用した文章整理・要約・業務支援
+- 社内SEとしての業務フロー改善
+- 業務フローの整理、課題抽出、改善提案
+- 非エンジニアにも使いやすいツール設計
+
+---
+
+## 開発しているもの
+
+### NexusMinute
+
+生成AIを活用したAI議事録作成アプリです。  
+会議音声や文字起こしテキストから、要点整理・決定事項・次の作業・共有用まとめを生成し、会議後の整理作業を効率化することを目的に開発しています。
+
+### 月末売上管理ツール
+
+CSVデータを取り込み、月次の売上集計やExcel出力を支援する業務改善ツールです。  
+毎月発生する集計作業や確認作業を効率化し、作業時間の削減とミスの防止を目的にしています。
+
+### ExcelVBA業務自動化サンプル
+
+転記、集計、帳票作成など、Excelで発生しやすい定型業務の効率化を想定したサンプルです。  
+現場担当者が使いやすい操作性と、業務フローに合わせた設計を意識しています。
+
+---
+
+## 使用技術
+
+- Python
+- ExcelVBA
+- FastAPI
+- Streamlit
+- pandas
+- openpyxl
+- 生成AI API
+- GitHub
+
+---
+
+## 開発支援ツール
+
+- ChatGPT
+- Codex CLI / Codex GUI
+- Gemini CLI
+
+---
+
+## 取り組んでいる分野
+
+- 生成AIを活用した業務効率化
+- AI議事録作成
+- OCRによる書類読取支援
+- 社内ナレッジ検索
+- Excel業務の自動化
+- 業務改善ツールのWebアプリ化
+- 非エンジニア向けの使いやすい業務システム設計
+
+---
+
+## 開発で意識していること
+
+業務改善・社内SEの経験をもとに、単にコードを書くことだけではなく、実際の業務で使いやすい形にすることを意識しています。
+
+特に、以下の点を大切にしています。
+
+- どの作業に時間がかかっているのか
+- どこで二重入力や確認作業が発生しているのか
+- どの部分を自動化すれば現場の負担が減るのか
+- 非エンジニアでも迷わず使える画面や操作になっているか
+- 実務で扱いやすい出力形式になっているか
+
+現場の課題を整理し、Python / ExcelVBA / 生成AIを活用して、実務に役立つ形へ落とし込むことを目指しています。
