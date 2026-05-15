@@ -82,8 +82,6 @@ FastAPI、Streamlit、SQLiteを使用し、LINE公式アカウントと接続す
 - Codex CLI / Codex GUI
 - Gemini CLI
 
-AI開発支援ツールは、設計整理・コード改善・テスト追加・README整備などに活用しています。
-
 ---
 
 ## 取り組んでいる分野
