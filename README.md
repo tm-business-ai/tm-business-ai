@@ -31,6 +31,11 @@
 社内マニュアルやFAQ、規程、議事録などの文書を登録し、AIで検索・要約できるRAG型の業務改善アプリです。  
 質問に対して、登録文書をもとに根拠つきで回答し、社内問い合わせ対応や資料確認の効率化を目的にしています。
 
+### [地方観光プラン作成アプリ LocalTrip Builder](https://github.com/tm-business-ai/localtrip-builder)
+
+地方観光向けに、旅行条件の入力、観光スポットの抽出、生成AIによる旅行プラン作成、Google MapsルートURL生成、PDF出力までを行うDjangoアプリです。
+Gemini / OpenAI / Claude など複数のAIプロバイダーを切り替えられる構成にし、外部APIキー未設定時でもMockで動作確認できるようにしています。
+
 ### [売上データ自動集計・月末売上管理ツール](https://github.com/tm-business-ai/sales-report-manager)
 
 CSV・Excelの売上データを取り込み、月末確認用のExcelレポートを自動作成する業務改善アプリです。  
@@ -64,14 +69,18 @@ FastAPI、Streamlit、SQLiteを使用し、LINE公式アカウントと接続す
 
 - Python
 - ExcelVBA
+- Django
 - FastAPI
 - Streamlit
 - Tkinter
 - pandas
 - openpyxl
-- SQLite
+- SQLite / PostgreSQL
 - pytest
 - 生成AI
+- Gemini API / OpenAI API / Claude API
+- Google Maps
+- PDF出力
 - Git / GitHub
 
 ---
@@ -90,6 +99,8 @@ FastAPI、Streamlit、SQLiteを使用し、LINE公式アカウントと接続す
 - AI議事録作成
 - OCRによる書類読取支援
 - 社内ナレッジ検索
+- 生成AIを活用した旅行プラン作成
+- 地方観光向けWebアプリ開発
 - Excel業務の自動化
 - CSV・Excelデータ集計
 - 月末レポート・売上管理の自動化
